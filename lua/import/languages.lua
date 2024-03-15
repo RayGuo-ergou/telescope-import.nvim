@@ -16,7 +16,7 @@ local languages = {
   },
   {
     regex = [[^(?:import(?:[\"'\s]*([\w*{}\n, ]+)from\s*)?[\"'\s](.*?)[\"'\s].*)]],
-    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
     extensions = { "js", "ts" },
   },
   {
